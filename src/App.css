@@ -1,7 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.header-container{
+  display: flex;
+  padding: 1.2rem;
+  color: white;
+  
+}
+
+ul{
+  display: flex;
+  column-gap: 4rem;
+  list-style-type: none;
+  align-self: center;
+}
+li{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 0.6rem;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: white;
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: 1s ;
+}
+
+.header-logo{
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2rem;
+}
+
 .footer-container{
+  /* border-top: 0.1px solid grey; */
   padding: 1.2rem 0 1.2rem 0;
   display: flex;
-  background-color: #1F2544;
+  background-color: #191919;
   flex-direction: column;
   color: white;
   position: absolute;
@@ -25,7 +66,7 @@
   display: flex;
   justify-content: center;
   padding-top: 1rem;
-  border-top: 1px solid rgb(190, 181, 181);
+  border-top: 0.2px grey;
 }
 
 .social-container{
@@ -44,6 +85,7 @@
   color: var(--color-white);
   font-size: 22px;
   display: flex;
+  align-content: center;
   align-items: center;
   column-gap: 5px;
 }
@@ -58,5 +100,18 @@ a{
 
 .aboutme-details{
   line-height: 1.2rem;
+}
 
+.captures-container{
+  color: white;
+  padding-left: 3.5rem;
+}
+
+.captures-heading{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 1rem;
 }
