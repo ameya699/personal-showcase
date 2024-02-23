@@ -1,0 +1,62 @@
+.footer-container{
+  padding: 1.2rem 0 1.2rem 0;
+  display: flex;
+  background-color: #1F2544;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.footermoreinfo-container{
+  max-width: 300px;
+}
+
+.footerdetails-wrapper{
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(190, 181, 181);
+}
+
+.social-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.social-details{
+  display: flex;
+  row-gap: 8px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.social-icon{
+  color: var(--color-white);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.social-description{
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.aboutme-details{
+  line-height: 1.2rem;
+
+}
